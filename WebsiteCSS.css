@@ -9,11 +9,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .row {
-    margin-top: 60px;
-    margin-left: 125px;
-    margin-right: 125px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 30px;
 }
 
 button {
@@ -33,15 +29,19 @@ button {
 }
 
 .Menu {
+    position: absolute;
+    right: 0;
 }
 
 .con-title {
     font-size: 60px;
-    margin-bottom: 0;
+    padding-top: 100px;
 }
 
 .con-text {
     font-size: 18px;
+    color: #E0E0E0;
+    opacity: 0.7;
 }
 .button_btn {
     background: #FDAE27;
@@ -57,21 +57,29 @@ button {
 }
 
 .image {
-    background: url("img/Group 1.png") no-repeat;
-    width: 300px;
-    height: 440px;
-    right: 0;
-    padding: 170px;
-    margin-top: -70px
+    width: 500px;
+    height: 640px;
 }
 
 .problems {
-    padding: 137px;
+    /*padding: 137px;*/
 }
 
-.digital-text {
-    font-size: 40px;
+.h2_about_title {
+    font-size: 30px;
     margin-bottom: 0;
+}
+.about_text {
+    font-size: 18px;
+    color: #E0E0E0;
+    opacity: 0.7;
+}
+
+.author {
+}
+.add_text {
+    font-size: 18px;
+    opacity: 0.7;
 }
 
 
