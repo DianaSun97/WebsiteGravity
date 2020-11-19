@@ -1,6 +1,11 @@
 body {
     font-family: 'Fira Sans', sans-serif;
-    background-color: #353745;
+    background-image: url("img/Group 3.svg");
+    background-color: #151762;
+    /*background-repeat: round;*/
+    /*background-size: 100%;*/
+    background-clip: border-box;
+    background-position: -635px -373px;
     color: #FFC25C;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -9,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .row {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
 }
 
 button {
@@ -62,17 +67,19 @@ button {
 }
 
 .image {
-    width: 500px;
-    height: 640px;
+    /*width: 500px;*/
+    /*height: 640px;*/
 }
 
-.problems {
-    /*padding: 137px;*/
+.problems1 {
+    background-color: #161852aa;
+    border-radius: 20px;
+    padding: 40px;
 }
 
 .h2_about_title {
     font-size: 30px;
-    margin: 80px
+    margin: 20px;
 }
 .about_text {
     font-size: 18px;
